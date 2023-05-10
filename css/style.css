@@ -410,4 +410,6 @@ hr{
 }
 
 
-
+.debug *, .debug * + * {
+  outline: blue 1px solid;
+}
