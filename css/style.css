@@ -254,16 +254,16 @@ hr{
   and (max-width: 736px) 
   and (orientation: portrait) {
     nav{
-      align-items:center;
+      align-items: center;
         padding: 2rem 1rem;
     }
     
     nav ul{
-    position:absolute;
-    top:34px;
+    position: absolute;
+    top: 34px;
     right: 0;
     width: 100%;
-    background:#4a0060;
+    background: #4a0060;
     max-height: 0;
     transition: max-height 0.15s ease-out;
     overflow: hidden;
@@ -387,9 +387,9 @@ hr{
     width: 31%;
   }
     
-    #map {
-        display: none;
-    }
+  #map {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -403,10 +403,9 @@ hr{
     width: 45%;
   }
 
-    #map {
-        display: none;
-    }
-
+  #map {
+    display: none;
+  }
 }
 
 
